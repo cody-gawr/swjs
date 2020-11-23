@@ -1,0 +1,2 @@
+#handles merging of the project.pbxproj file
+*.pbxproj binary merge=union

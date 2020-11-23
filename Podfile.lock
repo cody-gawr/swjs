@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.2)
+  - NewRelicAgent (5.10.1)
+  - ReachabilitySwift (4.3.0)
+  - RxBluetoothKit (5.3.0):
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - NewRelicAgent (~> 5.10.0)
+  - ReachabilitySwift (~> 4.3.0)
+  - RxBluetoothKit (~> 5.0)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - NewRelicAgent
+    - ReachabilitySwift
+    - RxBluetoothKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  NewRelicAgent: d16c572a3355d3ff9a359a6677e946c7a75a8f76
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  RxBluetoothKit: 0e781978e8a0df70ac3c611dcf44800b76c69f8a
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 0a0cc68536876b05c755f007f5fbfb338d016e58
+
+COCOAPODS: 1.9.3

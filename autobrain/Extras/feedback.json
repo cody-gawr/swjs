@@ -1,0 +1,121 @@
+{
+    "online": {
+        "question": "Are you enjoying Autobrain?",
+        "accept": {
+            "text": "ABSOLUTELY!",
+            "next": {
+                "question": "How about giving us a review?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 2
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        },
+        "deny": {
+            "text": "NOT REALLY",
+            "next": {
+                "question": "Would you mind giving us feedback?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 1
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        }
+    },
+    
+    "amazon": {
+        "question": "Are you enjoying Autobrain?",
+        "accept": {
+            "text": "ABSOLUTELY!",
+            "next": {
+                "question": "Will you review us on Amazon?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 3
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        },
+        "deny": {
+            "text": "NOT REALLY",
+            "next": {
+                "question": "Would you mind giving us feedback?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 1
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        }
+    },
+    
+    "walmart": {
+        "question": "Are you enjoying Autobrain?",
+        "accept": {
+            "text": "ABSOLUTELY!",
+            "next": {
+                "question": "Will you review us on Walmart.com?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 4
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        },
+        "deny": {
+            "text": "NOT REALLY",
+            "next": {
+                "question": "Would you mind giving us feedback?",
+                "accept": {
+                    "text": "Sure!",
+                    "next": {
+                        "result": 1
+                    }
+                },
+                "deny": {
+                    "text": "No Thanks",
+                    "next": {
+                        "result": 0
+                    }
+                }
+            }
+        }
+    }
+}
